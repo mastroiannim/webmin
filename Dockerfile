@@ -1,5 +1,5 @@
-FROM alpine:latest
+FROM alpine:3
 
-CMD ["sh"]
+RUN apk add --update --no-cache openssh
 
-EXPOSE 8080
+CMD ["ssh"]
