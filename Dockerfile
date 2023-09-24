@@ -1,3 +1,3 @@
 FROM senzing/xterm
 
-EXPOSE 8080
+EXPOSE 8254
