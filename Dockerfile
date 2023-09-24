@@ -6,8 +6,6 @@ WORKDIR /usr/app
 RUN npm install xterm
 RUN npm install http-server -g
 
-RUN xterm-js /bin/bash
-
 COPY index.html .
 
 
