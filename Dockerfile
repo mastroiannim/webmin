@@ -1,4 +1,4 @@
-FROM alpine:3
+FROM node
 
 RUN apk add --update --no-cache openssh
 
