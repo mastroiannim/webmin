@@ -2,11 +2,12 @@ FROM node:latest
 # Build with
 # $ docker build -t xterm-js .
 WORKDIR /usr/app
+COPY index.html /usr/app/index.html
+
 
 RUN npm install xterm
 RUN npm install http-server -g
 
-COPY index.html /usr/app/index.html
 
 
 # run with:
