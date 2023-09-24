@@ -6,6 +6,11 @@ WORKDIR /usr/app
 RUN npm install xterm
 RUN npm install http-server -g
 
+RUN xterm-js /bin/bash
+
+COPY index.html .
+
+
 # run with:
 # $ docker run --rm -it -p 8080:8080 -v ${PWD}/html:/html  xterm-js /bin/bash
 # In the bash session, cp /html/index.html .
