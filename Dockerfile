@@ -1,3 +1,3 @@
 FROM senzing/xterm
 
-EXPOSE 8254
+EXPOSE ${SENZING_XTERM_PORT}
