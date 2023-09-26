@@ -1,4 +1,4 @@
-FROM xtermjs/xterm.js
+FROM xterm.js:latest
 
 COPY index.html /usr/src/app
 
