@@ -1,4 +1,4 @@
-FROM xterm.js:latest
+FROM senzing/xterm
 
 COPY index.html /usr/src/app
 
